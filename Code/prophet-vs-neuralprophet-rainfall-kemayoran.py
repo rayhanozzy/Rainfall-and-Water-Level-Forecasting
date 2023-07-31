@@ -154,27 +154,6 @@ df_km.head()
 df_km.tail()
 
 
-# In[19]:
-
-
-#df_km_time = df_km.set_index('ds')
-#df_km_time.head()
-
-
-# In[20]:
-
-
-#Plot of decompotition
-#import statsmodels.api as sm
-#from pylab import rcParams
-#rcParams['figure.figsize'] = 11, 9
-#decomposition = sm.tsa.seasonal_decompose(df_km_time, 
-#                                         model = 'additive',
-#                                         period=60) 
-#fig = decomposition.plot()
-#plt.show()
-
-
 # In[21]:
 
 
